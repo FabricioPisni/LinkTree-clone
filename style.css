@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(59, 59, 59);
+    overflow: hidden;
+}
+
+.divbuttons{
+    border-radius: 15px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    gap: 15px;
+
+}
+
+.divfoda{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+
+button{
+    border-radius: 15px;
+    align-items: center;
+    width: 1000px;
+    height: 50px;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: rgb(176, 174, 174);
+    width: 1050px;
+    height: 55px;
+}
+
+h1{
+    color: white;
+}
+
+.perfil{
+    border-radius: 15px;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(30, 30, 30);
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.fotoNome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a{
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+}
+
+ul{
+    list-style: none;
+}
